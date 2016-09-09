@@ -7,7 +7,7 @@
     {loopback_users, []},
     {rabbitmq_management, [
       {{if (getenv "RABBITMQ_CLUSTER_HIGH_AVAILABILITY")}}
-      {load_definitions, "/etc/rabbitmq/rabbitmq_definitions.json"}
+      {load_definitions, "/etc/rabbitmq/definitions.json"}
       {{end}}
     ]}
   ]

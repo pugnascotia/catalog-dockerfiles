@@ -5,7 +5,3 @@ keys = [
   "/self/service",
   "/containers",
 ]
-
-[definitions]
-src = "definitions.tmpl"
-dest = "/etc/rabbitmq/rabbitmq_definitions.json"
